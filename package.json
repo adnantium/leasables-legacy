@@ -1,0 +1,31 @@
+{
+  "name": "leasables",
+  "version": "0.1.0",
+  "description": "Smart contracts for Cars and Drivers",
+  "main": "truffle.js",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "Adnan",
+  "license": "ISC",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.0.0",
+    "truffle": "^4.1.14",
+    "web3": "^1.0.0-beta.36"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
